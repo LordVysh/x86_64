@@ -15,6 +15,9 @@ int main(int argc, char* argv[])
 	std::cout << "\n\n[[MemoryAddressing Output:" << "]]" << '\n';
 	MemoryAddressing();
 
+	std::cout << "\n\n[[IntergerAddition Output: " << "]]" << '\n';
+	IntegerAddition();
+
 	std::cin.get();
 
 	return 0;

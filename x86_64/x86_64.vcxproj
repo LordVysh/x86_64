@@ -143,6 +143,10 @@
     <ClCompile Include="calctest.cpp" />
     <ClCompile Include="CallingConvention.cpp" />
     <ClCompile Include="encapsulator.cpp" />
+    <ClCompile Include="IntegerAddition.cpp" />
+    <MASM Include="IntegerAddition_.asm">
+      <FileType>Document</FileType>
+    </MASM>
     <ClCompile Include="IntMulDiv.cpp" />
     <ClCompile Include="MemoryAddressing.cpp" />
   </ItemGroup>
@@ -158,6 +162,7 @@
     <ClInclude Include="calctest.h" />
     <ClInclude Include="CallingConvention.h" />
     <ClInclude Include="encapsulate.h" />
+    <ClInclude Include="IntegerAddition.h" />
     <ClInclude Include="IntMulDiv.h" />
     <ClInclude Include="MemoryAddressing.h" />
   </ItemGroup>
