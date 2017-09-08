@@ -142,15 +142,18 @@
   <ItemGroup>
     <ClCompile Include="calctest.cpp" />
     <ClCompile Include="encapsulator.cpp" />
+    <ClCompile Include="IntMulDiv.cpp" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="CalcSum.asm">
       <FileType>Document</FileType>
     </MASM>
+    <MASM Include="IntMulDiv_.asm" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calctest.h" />
     <ClInclude Include="encapsulate.h" />
+    <ClInclude Include="IntMulDiv.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

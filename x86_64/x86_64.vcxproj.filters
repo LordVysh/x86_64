@@ -21,9 +21,15 @@
     <ClCompile Include="encapsulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IntMulDiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="CalcSum.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="IntMulDiv_.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
@@ -32,6 +38,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="encapsulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntMulDiv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
