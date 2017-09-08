@@ -13,5 +13,6 @@ int main(int argc, char* argv[])
 	CalculateSums();
 
 	std::cin.get();
+
 	return 0;
 }
