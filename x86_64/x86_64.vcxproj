@@ -144,6 +144,7 @@
     <ClCompile Include="CallingConvention.cpp" />
     <ClCompile Include="encapsulator.cpp" />
     <ClCompile Include="IntMulDiv.cpp" />
+    <ClCompile Include="MemoryAddressing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="CalcSum.asm">
@@ -151,12 +152,14 @@
     </MASM>
     <MASM Include="CallingConvention_.asm" />
     <MASM Include="IntMulDiv_.asm" />
+    <MASM Include="MemoryAddressing_.asm" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calctest.h" />
     <ClInclude Include="CallingConvention.h" />
     <ClInclude Include="encapsulate.h" />
     <ClInclude Include="IntMulDiv.h" />
+    <ClInclude Include="MemoryAddressing.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

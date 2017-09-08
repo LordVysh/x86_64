@@ -12,6 +12,9 @@ int main(int argc, char* argv[])
 	std::cout << "[[CallingConvention Output:" << "]]" << '\n';
 	CalculateSums();
 
+	std::cout << "\n\n[[MemoryAddressing Output:" << "]]" << '\n';
+	MemoryAddressing();
+
 	std::cin.get();
 
 	return 0;

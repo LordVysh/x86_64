@@ -27,6 +27,9 @@
     <ClCompile Include="CallingConvention.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MemoryAddressing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="CalcSum.asm">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </MASM>
     <MASM Include="CallingConvention_.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MemoryAddressing_.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
@@ -50,6 +56,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CallingConvention.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryAddressing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
