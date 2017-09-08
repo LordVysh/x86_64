@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="calctest.cpp" />
+    <ClCompile Include="CallingConvention.cpp" />
     <ClCompile Include="encapsulator.cpp" />
     <ClCompile Include="IntMulDiv.cpp" />
   </ItemGroup>
@@ -148,10 +149,12 @@
     <MASM Include="CalcSum.asm">
       <FileType>Document</FileType>
     </MASM>
+    <MASM Include="CallingConvention_.asm" />
     <MASM Include="IntMulDiv_.asm" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calctest.h" />
+    <ClInclude Include="CallingConvention.h" />
     <ClInclude Include="encapsulate.h" />
     <ClInclude Include="IntMulDiv.h" />
   </ItemGroup>
