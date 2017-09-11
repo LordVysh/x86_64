@@ -23,6 +23,9 @@ int main(int argc, char* argv[])
 
 	std::cout << "\n\n[[SignedIsEQ Output: " << "]]" << '\n';
 	SignedIsEQ();
+
+	std::cout << "\n\n[[CalcArraySum Output: " << "]]" << '\n';
+	CalcArraySum();
  
 	std::cin.get();
 

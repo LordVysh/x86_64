@@ -140,12 +140,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CalcArraySum.cpp" />
     <ClCompile Include="calctest.cpp" />
     <ClCompile Include="CallingConvention.cpp" />
     <ClCompile Include="ConditionCodes.cpp" />
     <ClCompile Include="encapsulator.cpp" />
     <ClCompile Include="IntegerAddition.cpp" />
     <ClCompile Include="SignedIsEQ.cpp" />
+    <MASM Include="CalcArraySum_.asm" />
     <MASM Include="ConditionCodes_.asm" />
     <MASM Include="IntegerAddition_.asm">
       <FileType>Document</FileType>
@@ -163,6 +165,7 @@
     <MASM Include="MemoryAddressing_.asm" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CalcArraySum.h" />
     <ClInclude Include="calctest.h" />
     <ClInclude Include="CallingConvention.h" />
     <ClInclude Include="ConditionCodes.h" />

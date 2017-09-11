@@ -6,3 +6,5 @@
 #include "IntegerAddition.h"
 #include "ConditionCodes.h"
 #include "SignedIsEQ.h"
+
+#include "CalcArraySum.h"

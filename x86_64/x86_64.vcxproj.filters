@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Chap2Arrays">
+      <UniqueIdentifier>{41fa3881-7dbf-4597-9403-8d60088e8955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chap2Arrays">
+      <UniqueIdentifier>{c57546ea-c9e4-4443-b539-b3a761a86a23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="calctest.cpp">
@@ -39,6 +45,9 @@
     <ClCompile Include="SignedIsEQ.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CalcArraySum.cpp">
+      <Filter>Source Files\Chap2Arrays</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="CalcSum.asm">
@@ -61,6 +70,9 @@
     </MASM>
     <MASM Include="SignedIsEQ_.asm">
       <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="CalcArraySum_.asm">
+      <Filter>Source Files\Chap2Arrays</Filter>
     </MASM>
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +99,9 @@
     </ClInclude>
     <ClInclude Include="SignedIsEQ.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcArraySum.h">
+      <Filter>Header Files\Chap2Arrays</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
