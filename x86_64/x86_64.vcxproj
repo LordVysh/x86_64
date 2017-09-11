@@ -142,8 +142,10 @@
   <ItemGroup>
     <ClCompile Include="calctest.cpp" />
     <ClCompile Include="CallingConvention.cpp" />
+    <ClCompile Include="ConditionCodes.cpp" />
     <ClCompile Include="encapsulator.cpp" />
     <ClCompile Include="IntegerAddition.cpp" />
+    <MASM Include="ConditionCodes_.asm" />
     <MASM Include="IntegerAddition_.asm">
       <FileType>Document</FileType>
     </MASM>
@@ -161,6 +163,7 @@
   <ItemGroup>
     <ClInclude Include="calctest.h" />
     <ClInclude Include="CallingConvention.h" />
+    <ClInclude Include="ConditionCodes.h" />
     <ClInclude Include="encapsulate.h" />
     <ClInclude Include="IntegerAddition.h" />
     <ClInclude Include="IntMulDiv.h" />

@@ -33,6 +33,9 @@
     <ClCompile Include="IntegerAddition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConditionCodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="CalcSum.asm">
@@ -48,6 +51,9 @@
       <Filter>Source Files</Filter>
     </MASM>
     <MASM Include="IntegerAddition_.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="ConditionCodes_.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
@@ -68,6 +74,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IntegerAddition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionCodes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
