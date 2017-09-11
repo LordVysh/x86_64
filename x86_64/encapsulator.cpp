@@ -21,6 +21,9 @@ int main(int argc, char* argv[])
 	std::cout << "\n\n[[ConditionCodes Output: " << "]]" << '\n';
 	ConditionCodes();
 
+	std::cout << "\n\n[[SignedIsEQ Output: " << "]]" << '\n';
+	SignedIsEQ();
+ 
 	std::cin.get();
 
 	return 0;

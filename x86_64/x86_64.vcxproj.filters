@@ -36,6 +36,9 @@
     <ClCompile Include="ConditionCodes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SignedIsEQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="CalcSum.asm">
@@ -54,6 +57,9 @@
       <Filter>Source Files</Filter>
     </MASM>
     <MASM Include="ConditionCodes_.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="SignedIsEQ_.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
@@ -77,6 +83,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ConditionCodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SignedIsEQ.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

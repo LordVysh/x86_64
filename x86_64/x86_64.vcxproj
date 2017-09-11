@@ -145,12 +145,14 @@
     <ClCompile Include="ConditionCodes.cpp" />
     <ClCompile Include="encapsulator.cpp" />
     <ClCompile Include="IntegerAddition.cpp" />
+    <ClCompile Include="SignedIsEQ.cpp" />
     <MASM Include="ConditionCodes_.asm" />
     <MASM Include="IntegerAddition_.asm">
       <FileType>Document</FileType>
     </MASM>
     <ClCompile Include="IntMulDiv.cpp" />
     <ClCompile Include="MemoryAddressing.cpp" />
+    <MASM Include="SignedIsEQ_.asm" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="CalcSum.asm">
@@ -168,6 +170,7 @@
     <ClInclude Include="IntegerAddition.h" />
     <ClInclude Include="IntMulDiv.h" />
     <ClInclude Include="MemoryAddressing.h" />
+    <ClInclude Include="SignedIsEQ.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
